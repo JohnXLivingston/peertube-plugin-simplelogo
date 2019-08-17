@@ -1,17 +1,17 @@
 {
-  "name": "peertube-plugin-quickstart",
+  "name": "peertube-plugin-simplelogo",
   "version": "0.0.2",
-  "description": "PeerTube plugin quickstart",
+  "description": "PeerTube simple logo plugin",
   "engine": {
-    "peertube": ">=1.3.0"
+    "peertube": ">=1.4.0-rc1"
   },
   "keywords": [
     "peertube",
     "plugin"
   ],
-  "homepage": "https://framagit.org/framasoft/peertube/peertube-plugin-quickstart",
-  "author": "Chocobozzz",
-  "bugs": "https://framagit.org/framasoft/peertube/peertube-plugin-quickstart/issues",
+  "homepage": "https://framagit.org/Livingston/peertube-plugin-simplelogo",
+  "author": "John Livingston",
+  "bugs": "https://framagit.org/framasoft/peertube/peertube-plugin-simplelogo/issues",
   "library": "./main.js",
   "staticDirs": {
     "images": "public/images"
