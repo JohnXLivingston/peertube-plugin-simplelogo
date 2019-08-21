@@ -1,6 +1,6 @@
 {
   "name": "peertube-plugin-simplelogo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PeerTube simple logo plugin",
   "engine": {
     "peertube": ">=1.4.0-rc1"
