@@ -1,12 +1,17 @@
 # PeerTube simple logo plugin
 
-# Introduction
+Main repository: https://framagit.org/Livingston/peertube-plugin-simplelogo.
+
+Clone repository: https://github.com/JohnXLivingston/peertube-plugin-simplelogo.
+
+
+## Introduction
 
 This plugin allows you to configure an alternative logo and favicon for your peertube instance.
 
 For now, you have to host the files by your own.
 
-# How to
+## How to
 
 Once you have installed the plugin, go to the plugin's setup page.
 There are several fields.
@@ -17,7 +22,7 @@ There are several fields.
 
 **Important Note:** There is no sanitarization for your inputs (neither url or width). We assume that administrators are not evil, and don't do XSS and co.
 
-# Upcoming enhancements
+## Upcoming enhancements
 
 The actual method is not quite good. We have to wait the response of a peertubeHelpers.getSettings() before we can override logo or favicon.
 I plan to find a better way.
