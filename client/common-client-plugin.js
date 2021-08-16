@@ -11,6 +11,7 @@ function register ({ registerHook, peertubeHelpers }) {
         let rule = "#custom-css .icon.icon-logo { "
         rule+= " display: inline-block; "
         rule+= " background: url('"+s['icon_url']+"'); "
+        rule+= " background-size: cover;"
         if ( s['icon_width'] ) {
           rule+= " width: "+s['icon_width']+"; "
         }
