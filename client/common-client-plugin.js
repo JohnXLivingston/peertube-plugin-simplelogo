@@ -8,7 +8,7 @@ function register ({ registerHook, peertubeHelpers }) {
         const style = document.createElement('style')
         document.head.appendChild(style)
         const sheet = style.sheet
-        let rule = "#custom-css .icon.icon-logo { "
+        let rule = "#custom-css .icon-logo { "
         rule+= " display: inline-block; "
         rule+= " background: url('"+s['icon_url']+"'); "
         rule+= " background-size: cover;"
