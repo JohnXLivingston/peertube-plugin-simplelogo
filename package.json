@@ -1,6 +1,6 @@
 {
   "name": "peertube-plugin-simplelogo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Plugin that let you change logo and favicon on your PeerTube instance.",
   "engine": {
     "peertube": ">=1.4.0-rc1"
